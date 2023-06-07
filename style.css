@@ -1,0 +1,327 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+
+img{
+  width: 100px;
+  height: 35px;
+}
+#background{
+  background-color: black;
+}
+.header{
+  position: fixed;
+  background-color: black;
+  width: 97%;
+  height:35px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+button{
+  color: white;
+  background-color: transparent;
+  width:  4.5rem;
+  height: 2rem;
+  border: 1px solid #073af3;
+  border-radius: 4px;
+  padding: 3px;
+  
+  
+}
+
+#imgMaior{
+  width: 100%;
+  height: 23rem;
+  margin-top: 5%;
+  
+}
+
+#img{
+  width: 100%;
+  height: 6rem; 
+}
+
+#img2{
+  width: 100%;
+  height: 3rem; 
+}
+
+#img3{
+  width: 100%;
+  height: 6rem; 
+}
+
+#img4{
+  width: 100%;
+  height: 6rem; 
+}
+
+.imagem {
+  display: flex;
+  justify-content: center;
+}
+
+
+ .imagem img {
+  height: 2.2rem;
+  
+}
+
+#img4{
+  width: 100%;
+  height: 6rem; 
+}
+
+
+.filmes{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+  width: 100%;
+  height: auto;
+overflow-x: scroll;
+
+
+}
+
+
+#guardar-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  background-color: #040405a4;
+  justify-content:flex-start;
+  align-items: flex-start;
+  z-index:30;
+}
+#guardar-modal #modal #x{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  left: 50%;
+  top:-10%;
+}
+#guardar-modal #modal #x p{
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(95, 93, 93);
+}
+#text{
+  width: 20rem;
+  height: 1.5rem;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 3px 3px 3px whitesmoke;
+  margin: 5px;
+  color:  #555555;
+
+}
+#password{
+  width: 20rem;
+  height: 1.5rem;
+  margin-top: 5px;
+  border:1px solid #dcdcdc;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 3px 3px 3px whitesmoke;
+}
+
+#entrar{
+  width: 20rem;
+  height: 2.2rem;
+  background-color: #1A72C2;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.8rem;
+  border-radius: 3px;
+}
+ #esqueci{
+  color: rgb(52, 52, 52);
+  margin-bottom: 3px;
+  font-size: 13.5px;
+  margin-right: 205px;
+  
+}
+#guardar-modal #modal {
+  width: 21rem;
+  height: 30rem;
+  background-color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 2rem;
+ 
+}
+#texto-modal{
+width: 310px;
+height: 70px;
+margin: 5px;
+}
+#iphone{
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Adicionado */
+  width: 20rem;
+  height: 2.2rem;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  line-height: 1.8rem;
+  text-decoration: none;
+  color:white;
+  margin-top: 5px;
+  border-radius: 4px;
+  font-family:Arial, Helvetica, sans-serif ;
+}
+
+
+.filmes::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+#facebook{
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Adicionado */
+  width: 20rem;
+  height: 2.2rem;
+  background-color: #3B5998;
+  display: flex;
+  justify-content: center;
+  line-height: 1.8rem;
+  text-decoration: none;
+  color:white;
+  margin-top: 5px;
+  border-radius: 4px;
+  font-family:Arial, Helvetica, sans-serif ;
+}
+
+#facebook div{
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: white;
+  text-align: center;
+  line-height: 1.6;
+  display: flex;
+  border-radius: 4px;
+  line-height: 1.6rem;
+  margin: 5px;
+}
+#iphone div{
+  width: 1.6rem;
+  height: 1.6rem;
+  text-align: center;
+  line-height: 1.6;
+  display: flex;
+  border-radius: 4px;
+  line-height: 1.6rem;
+  margin: 5px;
+}
+
+#modal h1{
+  color: #007ACC;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+#facebook div img{
+  width: 1.7rem;
+  height: 1.7rem;
+  line-height:1.7rem;
+}
+#iphone div img{
+  width: 1.7rem;
+  height: 1.7rem;
+  line-height:1.7rem;
+}
+#filmes{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+  width: 100%;
+  height: auto;
+overflow-x: scroll;
+
+
+}
+#filmes::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+#container{
+  background-color: #00061E;
+  width: 100%;
+}
+
+
+#img5{
+  width: 100%;
+  height: 6rem; 
+}
+
+#filmesFormatoDiferente{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+  width: 100%;
+  height: auto;
+overflow-x: scroll;
+
+}
+.loginP{
+  border:1px solid #81c3ff;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Adicionado */
+  width: 20rem;
+  height: 2.2rem;
+  color:#6899c6 ;
+  display: flex;
+  justify-content: center;
+  line-height: 1.8rem;
+  text-decoration: none;
+   font-size: 13px;
+  margin-top: 5px;
+  border-radius: 4px;
+  font-family:Arial, Helvetica, sans-serif ;
+  
+}
+
+#filmesFormatoDiferente::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+
+
+#modal #texto-modal #titulo{
+  color: #353535;
+  font-size: 13.5px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+#modal p{
+  font-size: 13px;
+}
+#item1{
+
+}
+
